@@ -1,13 +1,10 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Opsiyonel: Temel font ve body stilleri */
+body {
+  font-family: 'Inter', sans-serif; /* Google Fonts'tan Inter gibi modern bir font kullanılabilir */
+  background-color: #f3f4f6; /* Hafif gri bir arka plan */
+  color: #333;
 }
